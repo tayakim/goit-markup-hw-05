@@ -731,7 +731,7 @@ margin-bottom: 94px;
     overflow: hidden;
 }
 
-.works-card-elem:hover::before {
+.works-card-elem:hover .card-thumb::before {
     opacity: 0.9;
 }
 
