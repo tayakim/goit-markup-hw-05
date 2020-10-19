@@ -739,11 +739,6 @@ margin-bottom: 94px;
     transform: translateY(0);
 }
 
-
-/* .card-content:hover .card-thumb::before {
-transform: translateY(0);
-} */
-
 .works-card-elem:hover .card-overlay-text {
     opacity: 0.9;
     align-items: center;
@@ -753,7 +748,7 @@ transform: translateY(0);
 .card-thumb::before {
     position: absolute;
     display: inline-block;
-    /* opacity: 0; */
+    /* opacity: 1; */
     content: '';
     width: 100%;
     height: 100%;
