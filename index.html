@@ -55,7 +55,7 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
-                <button type="button" class="hero-button">Заказать услугу</button>
+                <button type="button" data-modal-open class="hero-button">Заказать услугу</button>
             </div>
 
         </section>
@@ -97,6 +97,9 @@
                 <h2 class="specialisations-title">Чем мы занимаемся</h2>
                 <ul class="list specialisations-container">
                     <li class="specialisations-img">
+                        <div class="specialisations-overlay">
+                            <p class="specialisations-overlay-text">Десктопные приложения</p>
+                        </div>
                         <div><img src="./images/specialisation1.jpg" width="370" alt="десктопные приложения"></div>
                     </li>
 
@@ -379,6 +382,17 @@
         </div>
     </footer>
 
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" data-modal-close class="close-modal">
+                 <svg>
+                    <use href="./images/sprite.svg#x"></use>
+                </svg> 
+            </button>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
