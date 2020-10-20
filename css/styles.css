@@ -146,7 +146,6 @@ body {
     width: 16px;
     height: 12px;
     fill: #757575;
-    /* margin-right: 10px; */
 }
 
 .phone svg {
@@ -175,8 +174,7 @@ body {
 
 .hero {
     background-position: center;
-    /* background-color: #E5E5E5; */
-    background-image: url("../images/Header1.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Header1.jpg");
     background-repeat: no-repeat;
     max-width: 1600;
     display: flex;
@@ -214,9 +212,10 @@ body {
     cursor: pointer;
 }
 
-.features {
+
+/* .features {
     padding-bottom: 94px;
-}
+} */
 
 .features-container {
     display: flex;
